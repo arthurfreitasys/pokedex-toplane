@@ -13,14 +13,25 @@ export default function Campeoes() {
             setFavoritos([...favoritos, id]);
         }
     }
+
     return (
-        <div>
-            <h2>Total: {favoritos.length}</h2>
+        <div className="pagina">
+            
+            <div className="lista">
+                {campeoes.map((c) => (
+                    <Campeao
+                        key={c.id}
+                        nome={c.nome}
+                        regiao={c.regiao}
+                        classe={c.classe}
+                        imagem={c.imagem}
+                        favorito={favoritos.includes(c.id)}
+                        onAlterar={() => alternarFavorito(c.id)}
+                    />
+                ))}
+            </div>
+            <h2>Total de favoritos: {favoritos.length}</h2>
             <BackButton />
-            {campeoes.map((c) => (
-                <Campeao key={c.id} nome={c.nome} regiao={c.regiao} classe={c.classe} imagem={c.imagem} favorito={favoritos.includes(c.id)} onAlterar={() => alternarFavorito(c.id)}
-                />
-            ))}
         </div>
     );
 }

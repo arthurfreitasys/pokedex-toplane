@@ -1,26 +1,345 @@
 [
-  { "id": 1, "nome": "Garen", "classe": "Lutador", "regiao": "Demacia",
-    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Garen_0.jpg" },
-  { "id": 2, "nome": "Darius", "classe": "Lutador", "regiao": "Noxus",
-    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Darius_0.jpg" },
-  { "id": 3, "nome": "Fiora", "classe": "Lutador", "regiao": "Demacia",
-    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Fiora_0.jpg" },
-  { "id": 4, "nome": "Camille", "classe": "Lutador", "regiao": "Piltover",
-    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Camille_0.jpg" },
-  { "id": 5, "nome": "Jax", "classe": "Lutador", "regiao": "Icathia",
-    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Jax_0.jpg" },
-  { "id": 6, "nome": "Malphite", "classe": "Tanque", "regiao": "Ixtal",
-    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Malphite_0.jpg" },
-  { "id": 7, "nome": "Ornn", "classe": "Tanque", "regiao": "Freljord",
-    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Ornn_0.jpg" },
-  { "id": 8, "nome": "Sett", "classe": "Lutador", "regiao": "Ionia",
-    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Sett_0.jpg" },
-  { "id": 9, "nome": "Renekton", "classe": "Lutador", "regiao": "Shurima",
-    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Renekton_0.jpg" },
-  { "id": 10, "nome": "Irelia", "classe": "Lutador", "regiao": "Ionia",
-    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Irelia_0.jpg" },
-  { "id": 11, "nome": "Shen", "classe": "Tanque", "regiao": "Ionia",
-    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Shen_0.jpg" },
-  { "id": 12, "nome": "Teemo", "classe": "Atirador", "regiao": "Bandópolis",
-    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Teemo_0.jpg" }
+  {
+    "id": 1,
+    "nome": "Aatrox",
+    "classe": "Lutador",
+    "regiao": "Shurima",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Aatrox_0.jpg"
+  },
+  {
+    "id": 2,
+    "nome": "Akali",
+    "classe": "Assassino",
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Akali_0.jpg"
+  },
+  {
+    "id": 3,
+    "nome": "Ambessa",
+    "classe": "Lutador",
+    "regiao": "Noxus",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Ambessa_0.jpg"
+  },
+  {
+    "id": 4,
+    "nome": "Camille",
+    "classe": "Lutador",
+    "regiao": "Piltover",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Camille_0.jpg"
+  },
+  {
+    "id": 5,
+    "nome": "Cho'Gath",
+    "classe": "Tanque",
+    "regiao": "Vazio",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Chogath_0.jpg"
+  },
+  {
+    "id": 6,
+    "nome": "Darius",
+    "classe": "Lutador",
+    "regiao": "Noxus",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Darius_0.jpg"
+  },
+  {
+    "id": 7,
+    "nome": "Dr. Mundo",
+    "classe": "Tanque",
+    "regiao": "Zaun",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/DrMundo_0.jpg"
+  },
+  {
+    "id": 8,
+    "nome": "Fiora",
+    "classe": "Lutador",
+    "regiao": "Demacia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Fiora_0.jpg"
+  },
+  {
+    "id": 9,
+    "nome": "Gangplank",
+    "classe": "Lutador",
+    "regiao": "Águas de Sentina",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Gangplank_0.jpg"
+  },
+  {
+    "id": 10,
+    "nome": "Garen",
+    "classe": "Lutador",
+    "regiao": "Demacia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Garen_0.jpg"
+  },
+  {
+    "id": 11,
+    "nome": "Gnar",
+    "classe": "Lutador",
+    "regiao": "Freljord",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Gnar_0.jpg"
+  },
+  {
+    "id": 12,
+    "nome": "Gragas",
+    "classe": "Lutador",
+    "regiao": "Freljord",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Gragas_0.jpg"
+  },
+  {
+    "id": 13,
+    "nome": "Gwen",
+    "classe": "Lutador",
+    "regiao": "Ilhas das Sombras",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Gwen_0.jpg"
+  },
+  {
+    "id": 14,
+    "nome": "Illaoi",
+    "classe": "Lutador",
+    "regiao": "Águas de Sentina",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Illaoi_0.jpg"
+  },
+  {
+    "id": 15,
+    "nome": "Irelia",
+    "classe": "Lutador",
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Irelia_0.jpg"
+  },
+  {
+    "id": 16,
+    "nome": "Jax",
+    "classe": "Lutador",
+    "regiao": "Icathia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Jax_0.jpg"
+  },
+  {
+    "id": 17,
+    "nome": "Jayce",
+    "classe": "Lutador",
+    "regiao": "Piltover",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Jayce_0.jpg"
+  },
+  {
+    "id": 18,
+    "nome": "K'Sante",
+    "classe": "Tanque",
+    "regiao": "Shurima",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/KSante_0.jpg"
+  },
+  {
+    "id": 19,
+    "nome": "Kayle",
+    "classe": "Lutador",
+    "regiao": "Demacia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Kayle_0.jpg"
+  },
+  {
+    "id": 20,
+    "nome": "Kennen",
+    "classe": "Mago",
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Kennen_0.jpg"
+  },
+  {
+    "id": 21,
+    "nome": "Kled",
+    "classe": "Lutador",
+    "regiao": "Noxus",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Kled_0.jpg"
+  },
+  {
+    "id": 22,
+    "nome": "Malphite",
+    "classe": "Tanque",
+    "regiao": "Ixtal",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Malphite_0.jpg"
+  },
+  {
+    "id": 23,
+    "nome": "Mordekaiser",
+    "classe": "Lutador",
+    "regiao": "Ilhas das Sombras",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Mordekaiser_0.jpg"
+  },
+  {
+    "id": 24,
+    "nome": "Nasus",
+    "classe": "Tanque",
+    "regiao": "Shurima",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Nasus_0.jpg"
+  },
+  {
+    "id": 25,
+    "nome": "Olaf",
+    "classe": "Lutador",
+    "regiao": "Freljord",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Olaf_0.jpg"
+  },
+  {
+    "id": 26,
+    "nome": "Ornn",
+    "classe": "Tanque",
+    "regiao": "Freljord",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Ornn_0.jpg"
+  },
+  {
+    "id": 27,
+    "nome": "Pantheon",
+    "classe": "Lutador",
+    "regiao": "Targon",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Pantheon_0.jpg"
+  },
+  {
+    "id": 28,
+    "nome": "Poppy",
+    "classe": "Tanque",
+    "regiao": "Demacia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Poppy_0.jpg"
+  },
+  {
+    "id": 29,
+    "nome": "Quinn",
+    "classe": "Atirador",
+    "regiao": "Demacia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Quinn_0.jpg"
+  },
+  {
+    "id": 30,
+    "nome": "Renekton",
+    "classe": "Lutador",
+    "regiao": "Shurima",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Renekton_0.jpg"
+  },
+  {
+    "id": 31,
+    "nome": "Riven",
+    "classe": "Lutador",
+    "regiao": "Noxus",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Riven_0.jpg"
+  },
+  {
+    "id": 32,
+    "nome": "Rumble",
+    "classe": "Lutador",
+    "regiao": "Bandópolis",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Rumble_0.jpg"
+  },
+  {
+    "id": 33,
+    "nome": "Sett",
+    "classe": "Lutador",
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Sett_0.jpg"
+  },
+  {
+    "id": 34,
+    "nome": "Shen",
+    "classe": "Tanque",
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Shen_0.jpg"
+  },
+  {
+    "id": 35,
+    "nome": "Singed",
+    "classe": "Tanque",
+    "regiao": "Zaun",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Singed_0.jpg"
+  },
+  {
+    "id": 36,
+    "nome": "Sion",
+    "classe": "Tanque",
+    "regiao": "Noxus",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Sion_0.jpg"
+  },
+  {
+    "id": 37,
+    "nome": "Skarner",
+    "classe": "Lutador",
+    "regiao": "Shurima",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Skarner_0.jpg"
+  },
+  {
+    "id": 38,
+    "nome": "Tahm Kench",
+    "classe": "Tanque",
+    "regiao": "Águas de Sentina",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/TahmKench_0.jpg"
+  },
+  {
+    "id": 39,
+    "nome": "Teemo",
+    "classe": "Atirador",
+    "regiao": "Bandópolis",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Teemo_0.jpg"
+  },
+  {
+    "id": 40,
+    "nome": "Trundle",
+    "classe": "Lutador",
+    "regiao": "Freljord",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Trundle_0.jpg"
+  },
+  {
+    "id": 41,
+    "nome": "Tryndamere",
+    "classe": "Lutador",
+    "regiao": "Freljord",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Tryndamere_0.jpg"
+  },
+  {
+    "id": 42,
+    "nome": "Urgot",
+    "classe": "Lutador",
+    "regiao": "Zaun",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Urgot_0.jpg"
+  },
+  {
+    "id": 43,
+    "nome": "Vayne",
+    "classe": "Atirador",
+    "regiao": "Demacia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Vayne_0.jpg"
+  },
+  {
+    "id": 44,
+    "nome": "Volibear",
+    "classe": "Lutador",
+    "regiao": "Freljord",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Volibear_0.jpg"
+  },
+  {
+    "id": 45,
+    "nome": "Warwick",
+    "classe": "Lutador",
+    "regiao": "Zaun",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Warwick_0.jpg"
+  },
+  {
+    "id": 46,
+    "nome": "Wukong",
+    "classe": "Lutador",
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/MonkeyKing_0.jpg"
+  },
+  {
+    "id": 47,
+    "nome": "Yasuo",
+    "classe": "Lutador",
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Yasuo_0.jpg"
+  },
+  {
+    "id": 48,
+    "nome": "Yone",
+    "classe": "Lutador",
+    "regiao": "Ionia",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Yone_0.jpg"
+  },
+  {
+    "id": 49,
+    "nome": "Yorick",
+    "classe": "Lutador",
+    "regiao": "Ilhas das Sombras",
+    "imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Yorick_0.jpg"
+  }
 ]

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500&display=swap");
+
+:root {
+  --fundo: #0a0a0c;
+  --painel: #10141c;
+  --ouro: #c8aa6e;
+  --ouro-claro: #f0e6d2;
+  --hextech: #0ac8b9;
+  --borda: #463714;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #101a26 0%, var(--fundo) 60%);
+  color: var(--ouro-claro);
+  font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Cinzel", serif;
+  color: var(--ouro);
+  letter-spacing: 1px;
+}
