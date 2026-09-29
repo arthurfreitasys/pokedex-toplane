@@ -4,7 +4,7 @@ Aplicação web de página única (SPA) que apresenta os campeões da **Top Lane
 
 Projeto desenvolvido como avaliação prática da disciplina de Desenvolvimento para Aplicativos Moveis.
 
-🔗 **Aplicação publicada:**[TopLane - Pokédex](https://pokedex-toplane.vercel.app/)
+🔗 **Aplicação publicada:** [TopLane - Pokédex](https://pokedex-toplane.vercel.app/)
 
 ## Funcionalidades
 
