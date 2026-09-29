@@ -1,4 +1,4 @@
-# TopLane — Pokédex de Campeões do League of Legends
+# TopLane - Pokédex de Campeões do League of Legends
 
 Aplicação web de página única (SPA) que apresenta os campeões da **Top Lane** (Rota superior do mapa do jogo) de *League of Legends* em formato de Pokédex. Cada campeão aparece em um card com imagem, região de Runeterra (Mapa do universo do game) e classe, e pode ser marcado como favorito.
 
